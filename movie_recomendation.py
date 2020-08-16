@@ -57,6 +57,7 @@ print(scores)
 sorted_score = sorted(scores, key = lambda x:x[1],reverse=True)
 print(sorted_score)
 sorted_score = sorted_score[1:]
+#since the first movie is the movie which the user entered
 
 #print the top ten recomended movies
 #get the index of the title column
