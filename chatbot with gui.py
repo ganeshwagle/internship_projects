@@ -140,7 +140,7 @@ font_menu.add_command(label = 'Courier', command = lambda : change_font('Courier
 font_menu.add_separator()
 font_menu.add_command(label = 'Helvetica', command = lambda : change_font('Helvetica'))
 font_menu.add_separator()
-font_menu.add_command(label = 'normal', command = lambda : change_font('corbel'))
+font_menu.add_command(label = 'normal', command = lambda : change_font(None))
 
 edit_menu.add_separator()
 
